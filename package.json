@@ -1,0 +1,35 @@
+{
+  "name": "gcp-playground",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "engines": {
+    "node": "^10"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tyler Hall",
+  "license": "ISC",
+  "devDependencies": {
+    "@commitlint/cli": "^9.1.2",
+    "@commitlint/config-conventional": "^9.1.2",
+    "@typescript-eslint/eslint-plugin": "^3.10.1",
+    "@typescript-eslint/parser": "^3.10.1",
+    "eslint": "^7.7.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-react-hooks": "^4.1.0",
+    "eslint-plugin-standard": "^4.0.1",
+    "firebase-tools": "^8.9.2",
+    "husky": "^4.2.5",
+    "lerna": "^3.22.1",
+    "typescript": "^4.0.2"
+  },
+  "workspaces": [
+    "packages/**"
+  ]
+}
