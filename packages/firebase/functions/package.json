@@ -18,9 +18,11 @@
     "case": "^1.6.3",
     "firebase-admin": "^9.1.1",
     "firebase-functions": "^3.11.0",
-    "moment": "^2.27.0"
+    "moment": "^2.27.0",
+    "node-emoji": "^1.10.0"
   },
   "devDependencies": {
+    "@types/node-emoji": "^1.8.1",
     "firebase-functions-test": "^0.2.1"
   }
 }
