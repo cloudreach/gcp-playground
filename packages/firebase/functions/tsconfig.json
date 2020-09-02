@@ -2,6 +2,9 @@
   "include": [
     "src"
   ],
+  "exclude": [
+    "src/**/*.test.ts"
+  ],
   "compileOnSave": true,
   "compilerOptions": {
     "module": "commonjs",
