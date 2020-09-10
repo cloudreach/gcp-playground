@@ -15,14 +15,17 @@
   },
   "main": "dist/index.js",
   "dependencies": {
+    "@google-cloud/logging": "^8.0.5",
     "case": "^1.6.3",
     "firebase-admin": "^9.1.1",
     "firebase-functions": "^3.11.0",
     "moment": "^2.27.0",
-    "node-emoji": "^1.10.0"
+    "node-emoji": "^1.10.0",
+    "ramda": "^0.27.1"
   },
   "devDependencies": {
     "@types/node-emoji": "^1.8.1",
+    "@types/ramda": "^0.27.17",
     "firebase-functions-test": "^0.2.1"
   }
 }
