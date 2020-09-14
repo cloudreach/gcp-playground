@@ -29,6 +29,9 @@ export const withSla = curry(
       }, []) // * empty array only runs on intial render
 
       const doStopTrace = useCallback(async () => {
+        if (!trace || hasTraceStopped) {
+          return
+        }
         await trace.stop()
         hasTraceStopped = true
       }, [trace])
