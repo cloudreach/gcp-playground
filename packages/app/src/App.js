@@ -15,10 +15,13 @@ const firebase = {
   }),
   perf: () => ({
     startTrace: async name => {
+      console.time(name)
       console.log(`=== Starting trace ${name} ===`)
+
       return {
         stop: async () => {
           console.log(`=== Stopping trace ${name} ===`)
+          console.timeEnd(name)
         }
       }
     }
